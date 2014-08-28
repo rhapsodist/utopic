@@ -1,0 +1,1307 @@
+platform-api (2.2.0+14.10.20140812-0ubuntu1) utopic; urgency=low
+
+  [ Cemil Azizoglu ]
+  * Bump ABI for Mir 0.6.0 release.
+
+  [ Alan Griffiths ]
+  * Bump ABI for Mir 0.6.0 release.
+
+  [ Kevin Gunn ]
+  * Bump ABI for Mir 0.6.0 release.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 12 Aug 2014 18:49:40 +0000
+
+platform-api (2.2.0+14.10.20140808-0ubuntu1) utopic; urgency=low
+
+  [ thomas-voss ]
+  * Implement installation of changed handlers. Subscribe to state
+    properties. (LP: #1348334)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 08 Aug 2014 02:07:56 +0000
+
+platform-api (2.2.0+14.10.20140801-0ubuntu1) utopic; urgency=low
+
+  [ Ricardo Mendoza ]
+  * Remove stale event.h header, use public one instead.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 01 Aug 2014 10:16:51 +0000
+
+platform-api (2.2.0+14.10.20140730-0ubuntu1) utopic; urgency=low
+
+  [ thomas-voss ]
+  * Check for null in functions accessing a session object. Make sure
+    that exceptions cannot propagate for controller interactions. (LP:
+    #1338610)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 30 Jul 2014 07:26:34 +0000
+
+platform-api (2.2.0+14.10.20140728-0ubuntu1) utopic; urgency=medium
+
+  [ Gerry Boland ]
+  *  Add window resize support
+  *  Add window focus event
+
+  [ Ubuntu daily release ]
+  * debian/libubuntu-application-api2.symbols: auto-update to released
+    version
+  * New rebuild forced
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 28 Jul 2014 02:53:27 +0000
+
+platform-api (2.1.0+14.10.20140721-0ubuntu1) utopic; urgency=low
+
+  [ thomas-voss ]
+  * Explicitly select g++-4.9 to prevent from ABI breaks.
+
+  [ Steve Langasek ]
+  * Explicitly select g++-4.9 to prevent from ABI breaks.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 21 Jul 2014 08:47:18 +0000
+
+platform-api (2.1.0+14.10.20140717-0ubuntu1) utopic; urgency=low
+
+  [ Cemil Azizoglu ]
+  * Mir display server 0.5.0 release.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 17 Jul 2014 08:03:12 +0000
+
+platform-api (2.1.0+14.10.20140715-0ubuntu1) utopic; urgency=low
+
+  * New rebuild forced
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 15 Jul 2014 14:20:04 +0000
+
+platform-api (2.1.0+14.10.20140702-0ubuntu1) utopic; urgency=low
+
+  [ Alberto Aguirre ]
+  * Bump Mir dependencies to 0.4.0.
+
+  [ Cemil Azizoglu ]
+  * Bump Mir dependencies to 0.4.0.
+
+  [ Kevin Gunn ]
+  * Bump Mir dependencies to 0.4.0.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 02 Jul 2014 02:11:11 +0000
+
+platform-api (2.1.0+14.10.20140701-0ubuntu1) utopic; urgency=low
+
+  [ Sergio Schvezov ]
+  * Setting -Wl,--no-as-needed for sensors.
+
+  [ Ricardo Mendoza ]
+  * Run thread for dbus client connection (sensors service)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 01 Jul 2014 15:17:32 +0000
+
+platform-api (2.1.0+14.10.20140630-0ubuntu1) utopic; urgency=low
+
+  [ Ubuntu daily release ]
+  * debian/*symbols: auto-update new symbols to released version
+
+  [ thomas-voss ]
+  * Adjust to API changes in location service. Implement controller
+    interface. Add functions to query the accuracy estimates for a
+    position update. (LP: #1281817)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 30 Jun 2014 08:54:28 +0000
+
+platform-api (2.1.0+14.10.20140624.4-0ubuntu1) utopic; urgency=low
+
+  [ Ricardo Mendoza ]
+  * Add missing enable/disable functions for haptic
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 24 Jun 2014 20:22:48 +0000
+
+platform-api (2.1.0+14.10.20140623.1-0ubuntu1) utopic; urgency=medium
+
+  [ Ricardo Mendoza ]
+  * Added orientation sensor, extended existing sensor API to allow
+    for dynamic event rate setting.
+
+  [ Ubuntu daily release ]
+  * debian/*symbols: auto-update new symbols to released version
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 23 Jun 2014 16:39:59 +0000
+
+platform-api (2.0.0+14.10.20140618.1-0ubuntu1) utopic; urgency=low
+
+  [ Tarmac ]
+  * Updated for Mir 0.3.0 release.
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+  [ Cemil Azizoglu ]
+  * Updated for Mir 0.3.0 release.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 18 Jun 2014 19:31:24 +0000
+
+platform-api (2.0.0+14.10.20140612-0ubuntu1) utopic; urgency=medium
+
+  [ Ricardo Mendoza ]
+  * Bump API version to 2.0
+  * Introduce support for dynamic backend loading
+  * Package naming changes
+  * Further support for test backend
+  * Unified bridge
+
+  [ Ubuntu daily release ]
+  * debian/*symbols: auto-update new symbols to released version
+  * New rebuild forced
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 12 Jun 2014 09:48:31 +0000
+
+platform-api (1.2.0+14.10.20140605-0ubuntu1) utopic; urgency=low
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+  [ Cemil Azizoglu ]
+  * staging 0.2.0
+
+  [ Kevin Gunn ]
+  * staging 0.2.0
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 05 Jun 2014 14:08:48 +0000
+
+platform-api (1.2.0+14.10.20140522.1-0ubuntu1) utopic; urgency=medium
+
+  [ Manuel de la Pena ]
+  * Add agps hooks in the hardware api to allow the use of supl.
+
+  [ Ubuntu daily release ]
+  * debian/*symbols: auto-update new symbols to released version
+
+  [ thomas-voss ]
+  * Add hw alarm api implementation for android's /dev/alarm. Add simple
+    test executable for hw alarm api implementation on android. Adjust
+    interface signatures to make sure that status of operations is
+    reported correctly. Add HW Alarms API interface definition. Add
+    Ubuntu implementation that will bridge over to the android world.
+    (LP: #1299916)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 22 May 2014 15:29:47 +0000
+
+platform-api (1.1.0+14.10.20140515.1-0ubuntu1) utopic; urgency=medium
+
+  [ Gerry Boland ]
+  [Daniel d'Andrada]
+  * Add ua_ui_window_get_size().
+  
+  [Gerry Boland]
+  * Bump package version to match library version.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 15 May 2014 17:18:39 +0000
+
+platform-api (0.21+14.10.20140507-0ubuntu1) utopic; urgency=medium
+
+  [ Ricardo Mendoza ]
+  * Change sensors API to allow for GCC 4.8 building across all clients
+    Ubuntu-side
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 07 May 2014 10:45:33 +0000
+
+platform-api (0.20+14.10.20140430.1-0ubuntu1) utopic; urgency=low
+
+  [ Alberto Aguirre ]
+  * needed for mir019
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 30 Apr 2014 13:35:29 +0000
+
+platform-api (0.20+14.04.20140411-0ubuntu1) trusty; urgency=low
+
+  [ Gerry Boland ]
+  * Manually call mir's SurfacePlacementStrategy::place and
+    SessionListener::surface_created methods for in process client
+    Surface Mir 0.1.8 refactoring causes in-process client surfaces to
+    be an implementation detail of Mir's surface stack, and prevents
+    shell from getting access to its surface to position it and define
+    input areas on it. To fix this,we perform the following: 1. Create
+    an InProcessClientSession to represent the in-process client 2. Get
+    access to Mir's SurfacePlacementStrategy object and call its place
+    method explicitly, to allow shell to position its surface 3. Get
+    access to Mir's SessionListener object and call its surface_created
+    method explicitly, to notify shell its surface was created
+
+  [ Alan Griffiths ]
+  * Changes for compatibility with Mir 0.1.8
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 11 Apr 2014 21:09:05 +0000
+
+platform-api (0.20+14.04.20140407-0ubuntu1) trusty; urgency=low
+
+  [ Andreas Pokorny ]
+  * CMakeLists adaptation to make platform-api cross compile with a
+    simple chroot setup. Note that <PKG_NAME>_LINK_LIBRARIES variables
+    were removed from link_directories and respective <PKG_NAME>_LDFLAGS
+    variables were instead put into target_link_libraries. Those
+    informations attached to targets are transitively forwarded to the
+    user of the library. link_directories only attaches the information
+    to the source directory.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 07 Apr 2014 06:16:39 +0000
+
+platform-api (0.20+14.04.20140401-0ubuntu1) trusty; urgency=low
+
+  [ Chris Gagnon ]
+  * enable getting coverage in CI
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 01 Apr 2014 01:22:00 +0000
+
+platform-api (0.20+14.04.20140317.1-0ubuntu1) trusty; urgency=low
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+  [ Kevin Gunn ]
+  * bump to mir0.1.7
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 17 Mar 2014 15:15:44 +0000
+
+platform-api (0.20+14.04.20140310.1-0ubuntu1) trusty; urgency=low
+
+  [ Kevin Gunn ]
+  * bump debian dep to mir0.1.6
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 10 Mar 2014 21:09:12 +0000
+
+platform-api (0.20+14.04.20140307-0ubuntu1) trusty; urgency=low
+
+  [ Łukasz 'sil2100' Zemczak ]
+  * Bump the build-dependency on dbus-cpp due to the ABI change
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 07 Mar 2014 12:35:44 +0000
+
+platform-api (0.20+14.04.20140221-0ubuntu1) trusty; urgency=low
+
+  [ thomas-voss ]
+  * Remove obsolete assert on bridge as failures are captured higher up
+    in the stack now.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 21 Feb 2014 13:25:48 +0000
+
+platform-api (0.20+14.04.20140214-0ubuntu1) trusty; urgency=low
+
+  [ Daniel d'Andrada ]
+  * Clipboard implementation using UnityService through the mir socket
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 14 Feb 2014 15:46:05 +0000
+
+platform-api (0.20+14.04.20140212-0ubuntu1) trusty; urgency=low
+
+  [ Kevin Gunn ]
+  * bump dep on mir0.1.5
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 12 Feb 2014 18:32:46 +0000
+
+platform-api (0.20+14.04.20140211-0ubuntu1) trusty; urgency=low
+
+  [ Martin Pitt ]
+  * Fix crash in ua_sensors_*_new() if there is no available backend.
+    Return NULL instead. (LP: #1272294)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 11 Feb 2014 00:09:33 +0000
+
+platform-api (0.20+14.04.20140204.1-0ubuntu1) trusty; urgency=low
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+  [ Ricardo Salveti de Araujo ]
+  * Making android code compatible with 4.4.
+
+  [ Kevin Gunn ]
+  * bump debian version for mir to 0.1.4
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 04 Feb 2014 14:51:56 +0000
+
+platform-api (0.20+14.04.20140204-0ubuntu1) trusty; urgency=low
+
+  [ thomas-voss ]
+  * Adopt to changes in dbus-cpp and location-service.
+
+  [ Łukasz 'sil2100' Zemczak ]
+  * Bump the dbus-cpp dependency to 1.0.0
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 04 Feb 2014 12:34:00 +0000
+
+platform-api (0.20+14.04.20140114.1-0ubuntu1) trusty; urgency=low
+
+  [ Martin Pitt ]
+  * Add backend for simulated sensor data.
+
+  [ Albert Astals ]
+  * Build fixes and typos.
+
+  [ Ricardo Mendoza ]
+  * Build fixes and typos.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 183
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 14 Jan 2014 10:37:30 +0000
+
+platform-api (0.20-0ubuntu1) trusty; urgency=low
+
+  * Added *_set_dimensions() function to the window properties.
+
+ -- Ricardo Mendoza <ricardo.mendoza@canonical.com>  Tue, 10 Dec 2013 23:24:57 -0500
+
+platform-api (0.19+14.04.20140108.1-0ubuntu1) trusty; urgency=low
+
+  [ Alexandros Frantzis ]
+  * mirclient: Initialize MirSurfaceParameters::output_id field.
+
+  [ Martin Pitt ]
+  * Fix all compiler warnings.
+
+  [ Timo Jyrinki ]
+  * bump debian version dependency for mir to 0.1.3 to force rebuild
+
+  [ Gerry Boland ]
+  * Fix FTBFS with Mir12 change - mir::geometry::PixelFormat was
+    removed, using MirPixelFormat instead. (LP: #1266674)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 179
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 08 Jan 2014 06:17:14 +0000
+
+platform-api (0.19+14.04.20131128.1-0ubuntu1) trusty; urgency=low
+
+  [ Kevin Gunn ]
+  * update mir deb build dep to ver 0.1.2
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 174
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 28 Nov 2013 10:51:15 +0000
+
+platform-api (0.19+14.04.20131119.1-0ubuntu1) trusty; urgency=low
+
+  [ Kevin Gunn ]
+  * mir server abi break, bump build dep to 0.1.1
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 172
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 19 Nov 2013 19:16:40 +0000
+
+platform-api (0.19+14.04.20131028-0ubuntu1) trusty; urgency=low
+
+  [ Kevin Gunn ]
+  * bump mir build dep to 0.0.16.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 170
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 28 Oct 2013 16:56:11 +0000
+
+platform-api (0.19+13.10.20131015.1-0ubuntu2) trusty; urgency=low
+
+  * No change rebuild for Boost 1.54 transition, required to drop
+    boost1.53 from main.
+
+ -- Dmitrijs Ledkovs <xnox@ubuntu.com>  Fri, 25 Oct 2013 00:06:13 +0100
+
+platform-api (0.19+13.10.20131015.1-0ubuntu1) saucy; urgency=low
+
+  [ Robert Carr ]
+  * It seems events of mir_event_type_surface may lead to passing an
+    uninitialized ubuntu event in to qtubuntu. Drop these events for
+    now.
+
+  [ Kevin Gunn ]
+  * bump mir build dep 0.0.15 & libmirserver7.
+
+  [ Alexandros Frantzis ]
+  * mirclient: Return a null UApplicationInstance* when failing to
+    connect to the mir server. (LP: #1233988)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 167
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 15 Oct 2013 02:39:54 +0000
+
+platform-api (0.19+13.10.20131010.1-0ubuntu1) saucy; urgency=low
+
+  [ Alexandros Frantzis ]
+  * mirclient: Properly check for failed connections to the server
+    Failing to do so leads to invalid/error connections being used
+    platform-api, leading to crashes. . (LP: #1233988)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 163
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 10 Oct 2013 20:03:35 +0000
+
+platform-api (0.19+13.10.20131009.2-0ubuntu1) saucy; urgency=low
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+  [ Kevin Gunn ]
+  * bump mir build dep 0.0.14.
+
+  [ Alexandros Frantzis ]
+  * mirclient: Release Window resources in the proper order Release the
+    InputContext after releasing the Surface that is using the
+    InputContext in its event callback. Otherwise we get a crash when an
+    input event comes to the Surface after the InputContext is
+    destroyed, but before the Surface itself has been destroyed. (LP:
+    #1236225)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 161
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 09 Oct 2013 23:16:04 +0000
+
+platform-api (0.19+13.10.20131003-0ubuntu1) saucy; urgency=low
+
+  [ Kevin Gunn ]
+  * bumping mir dep debian 0.0.13, libmirserver5
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 158
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 03 Oct 2013 07:59:18 +0000
+
+platform-api (0.19+13.10.20130926.1-0ubuntu1) saucy; urgency=low
+
+  [ Kevin Gunn ]
+  * bump build dep for new mir soname in order to rebuild
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 156
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 26 Sep 2013 10:03:20 +0000
+
+platform-api (0.19+13.10.20130925.1-0ubuntu1) saucy; urgency=low
+
+  [ Ricardo Mendoza ]
+  * Make music-app not be stopped when going to the background.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 154
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 25 Sep 2013 18:45:36 +0000
+
+platform-api (0.19+13.10.20130924-0ubuntu1) saucy; urgency=low
+
+  [ Ricardo Mendoza ]
+  * * Bump build-dep on Mir to 0.0.11.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 152
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 24 Sep 2013 13:05:21 +0000
+
+platform-api (0.19+13.10.20130919.3-0ubuntu1) saucy; urgency=low
+
+  [ Ubuntu daily release ]
+  * debian/*symbols: auto-update new symbols to released version
+
+  [ thomas-voss ]
+  * Ensure that url dispatcher and location service symbols are part of
+    the mir implementation.
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+  * Automatic snapshot from revision 150
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 19 Sep 2013 14:09:35 +0000
+
+platform-api (0.19-0ubuntu1) saucy; urgency=low
+
+  * New upstream release
+
+ -- Ricardo Mendoza <ricardo.mendoza@canonical.com>  Wed, 18 Sep 2013 12:00:35 -0400
+
+platform-api (0.18.3+13.10.20130904-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 147
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 04 Sep 2013 06:46:10 +0000
+
+platform-api (0.18.3+13.10.20130903-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 146
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 03 Sep 2013 14:46:10 +0000
+
+platform-api (0.18.3+13.10.20130830.1-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 145
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 30 Aug 2013 18:55:10 +0000
+
+platform-api (0.18.3+13.10.20130830-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 144
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 30 Aug 2013 12:12:17 +0000
+
+platform-api (0.18.3+13.10.20130829.2-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 143
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 29 Aug 2013 18:40:08 +0000
+
+platform-api (0.18.3+13.10.20130829.1-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 142
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 29 Aug 2013 14:50:08 +0000
+
+platform-api (0.18.3+13.10.20130829-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 141
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 29 Aug 2013 10:40:08 +0000
+
+platform-api (0.18.3+13.10.20130828-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 140
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 28 Aug 2013 10:42:09 +0000
+
+platform-api (0.18.3+13.10.20130827.1-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 139
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 27 Aug 2013 18:42:09 +0000
+
+platform-api (0.18.3+13.10.20130827-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 138
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 27 Aug 2013 06:41:10 +0000
+
+platform-api (0.18.3+13.10.20130826.3-0ubuntu1) saucy; urgency=low
+
+  [ Ubuntu daily release ]
+  * debian/*symbols: auto-update new symbols to released version
+
+  [ thomas-voss ]
+  * Add implementation for ua_location_service_create_controller. (LP:
+    #1216483)
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+  [ Albert Astals ]
+  * Add a wrapper for lp:url-dispatcher .
+
+  [ Ricardo Mendoza ]
+  * * Support lifecycle events to dispatch client callbacks due to state
+    switching.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 137
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 26 Aug 2013 18:07:43 +0000
+
+platform-api (0.18.3+13.10.20130826-0ubuntu1) saucy; urgency=low
+
+  [ Ubuntu daily release ]
+  * debian/*symbols: auto-update new symbols to released version
+
+  [ Charles Kerr ]
+  * Add a controller for the location service.
+
+  [ thomas-voss ]
+  * Add a controller for the location service.
+
+  [ Thomas Voß ]
+  * Add a controller for the location service.
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+  * Automatic snapshot from revision 133
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 26 Aug 2013 02:08:08 +0000
+
+platform-api (0.18.3+13.10.20130823-0ubuntu1) saucy; urgency=low
+
+  [ Ubuntu daily release ]
+  * debian/*symbols: auto-update new symbols to released version
+  * New rebuild forced
+
+  [ Ricardo Mendoza ]
+  * Restore accidentally dropped symbols back to the Mir server API.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 131
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 23 Aug 2013 06:45:15 +0000
+
+platform-api (0.18.3+13.10.20130822.2-0ubuntu1) saucy; urgency=low
+
+  [ thomas-voss ]
+  * Reimplement location submodule on top of location-service.
+
+  [ Thomas Voß ]
+  * Reimplement location submodule on top of location-service.
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+  * Automatic snapshot from revision 129
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 22 Aug 2013 18:06:37 +0000
+
+platform-api (0.18.3+13.10.20130822.1-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 127
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 22 Aug 2013 14:36:12 +0000
+
+platform-api (0.18.3+13.10.20130822-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 126
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 22 Aug 2013 10:42:14 +0000
+
+platform-api (0.18.3+13.10.20130821.1-0ubuntu1) saucy; urgency=low
+
+  * New rebuild forced
+  * Automatic snapshot from revision 125
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 21 Aug 2013 14:40:14 +0000
+
+platform-api (0.18.3+13.10.20130821-0ubuntu1) saucy; urgency=low
+
+  [ Daniel d'Andrada ]
+  * Enable OSK window role, which ties into Mir's OSK surface type. Also
+    add "state" property to Window, and this implement
+    show/hide/fullscreen functions using Mir's surface state API.
+
+  [ Ricardo Salveti de Araujo ]
+  * debian/control: depending on libhybris-common only instead.
+
+  [ Robert Carr ]
+  * Enable OSK window role, which ties into Mir's OSK surface type. Also
+    add "state" property to Window, and this implement
+    show/hide/fullscreen functions using Mir's surface state API.
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+  [ Gerry Boland ]
+  * Enable OSK window role, which ties into Mir's OSK surface type. Also
+    add "state" property to Window, and this implement
+    show/hide/fullscreen functions using Mir's surface state API.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 124
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 21 Aug 2013 06:51:21 +0000
+
+platform-api (0.18.3+13.10.20130820-0ubuntu1) saucy; urgency=low
+
+  [ Gerry Boland ]
+  * Revert Cflags change in pkgconfig file in rev 118.
+  * Remove workaround to obtain Mir internal surface, as Mir added
+    as_internal_surface method in revno 964.
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+  * Automatic snapshot from revision 121
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 20 Aug 2013 14:06:21 +0000
+
+platform-api (0.18.3+13.10.20130815.1-0ubuntu1) saucy; urgency=low
+
+  [ Ubuntu daily release ]
+  * debian/*symbols: auto-update new symbols to released version
+  * New rebuild forced
+
+  [ Thomas Voß ]
+  * Fix typos in location service API.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 118
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 15 Aug 2013 06:06:34 +0000
+
+platform-api (0.18.3+13.10.20130813-0ubuntu1) saucy; urgency=low
+
+  [ Ubuntu daily release ]
+  * debian/*symbols: auto-update new symbols to released version
+
+  [ gerboland ]
+  * Build the Mir backends and add the relevant deps now that we have
+    Mir in main.
+
+  [ Ricardo Salveti de Araujo ]
+  * Build the Mir backends and add the relevant deps now that we have
+    Mir in main.
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+  [ Ricardo Mendoza ]
+  * Build the Mir backends and add the relevant deps now that we have
+    Mir in main.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 116
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 13 Aug 2013 02:51:19 +0000
+
+platform-api (0.18.3+13.10.20130812-0ubuntu1) saucy; urgency=low
+
+  [ Gerry Boland ]
+  * Fix FTBFS due to Mir commit 951.
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+  * Automatic snapshot from revision 114
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 12 Aug 2013 18:41:26 +0000
+
+platform-api (0.18.3+13.10.20130807-0ubuntu1) saucy; urgency=low
+
+  [ Ubuntu daily release ]
+  * debian/*symbols: auto-update new symbols to released version
+
+  [ Thomas Voß ]
+  * Add location service API.
+
+  [ Ricardo Mendoza ]
+  * Add location service API.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 112
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 07 Aug 2013 02:02:29 +0000
+
+platform-api (0.18.3+13.10.20130806-0ubuntu1) saucy; urgency=low
+
+  [ gerboland ]
+  * Fix for Mir API change in revno 873, there are now multiple display
+    buffers available, so no single display. Moving this fix from the
+    packaging branch.
+
+  [ Albert Astals ]
+  * Fix FTBFS due to Mir API changes.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 110
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 06 Aug 2013 02:02:22 +0000
+
+platform-api (0.18.3+13.10.20130802-0ubuntu1) saucy; urgency=low
+
+  [ Thomas Voß ]
+  * Make sure that archive.h compiles with C compilers.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 107
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 02 Aug 2013 02:02:00 +0000
+
+platform-api (0.18.3+13.10.20130730-0ubuntu1) saucy; urgency=low
+
+  [ Ricardo Mendoza ]
+  * General renaming of packages to match debian guidelines
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 105
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 30 Jul 2013 02:02:34 +0000
+
+platform-api (0.18.2+13.10.20130729-0ubuntu1) saucy; urgency=low
+
+  [ Gustavo Pichorim Boiko ]
+  * Rename the well known applications to match their names after the
+    splitting of phone-app. The entry for the current phone-app was kept
+    there so that it can be used while the new applications are not yet
+    mature.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 103
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 29 Jul 2013 02:01:57 +0000
+
+platform-api (0.18.2+13.10.20130726-0ubuntu1) saucy; urgency=low
+
+  [ Jani Monoses ]
+  * Fixing issue with gcc 4.6.
+  * Build fixes for tests.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 101
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 26 Jul 2013 02:01:55 +0000
+
+platform-api (0.18.2+13.10.20130725-0ubuntu1) saucy; urgency=low
+
+  [ Ricardo Mendoza ]
+  * * Clear all input traps upon death of the last client * Reset shell
+    focus if all apps exit. (LP: #1203698, #1204299)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 98
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 25 Jul 2013 11:44:22 +0000
+
+platform-api (0.18.2+13.10.20130719-0ubuntu1) saucy; urgency=low
+
+  [ Thomas Voß ]
+  * Remove versioned include directories. (LP: #1202309)
+
+  [ Ricardo Mendoza ]
+  * Stop changing focus when the binder that died was the last app in
+    our list. (LP: #1202803)
+  * Dont refocus other app if app dies while shell has focus. (LP:
+    #1178288)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 96
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 19 Jul 2013 02:02:00 +0000
+
+platform-api (0.18.2+13.10.20130711-0ubuntu1) saucy; urgency=low
+
+  [ Ricardo Mendoza ]
+  * Fix build of non-existant file (mircommon target).
+  * Install Mir headers in the right place.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 92
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 11 Jul 2013 02:01:51 +0000
+
+platform-api (0.18.2+13.10.20130709-0ubuntu1) saucy; urgency=low
+
+  [ Ubuntu daily release ]
+  * debian/*symbols: auto-update new symbols to released version
+
+  [ Thomas Voß ]
+  * * Split out the hardware sub-module into its own package.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 89
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 09 Jul 2013 02:02:39 +0000
+
+platform-api (0.18.2+13.10.20130708-0ubuntu1) saucy; urgency=low
+
+  [ Thomas Voß ]
+  * Split out hal to ease integration of location service.
+
+  [ Ubuntu daily release ]
+  * debian/*symbols: auto-update new symbols to released version
+
+  [ Thomas Voß ]
+  * Add first wave of doxygen documentation and make the documentation
+    known to the packaging setup.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 87
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 08 Jul 2013 02:01:12 +0000
+
+platform-api (0.18.1+13.10.20130705-0ubuntu1) saucy; urgency=low
+
+  [ Thomas Voß ]
+  * * Adjust the cmake setup and get rid of -DUSE_GLES, instead rely on
+    automatic detection if the header is available. * Adjust the cmake
+    setup to bail out if EGL is not available. * Adjust the cmake setup
+    to autogenerate doxygen API documentation.
+  * * Add a pkgconfig file for the platform API * Adjust installation of
+    header files to account for version.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 84
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 05 Jul 2013 02:01:10 +0000
+
+platform-api (0.18.1+13.10.20130703-0ubuntu1) saucy; urgency=low
+
+  [ Ricardo Mendoza ]
+  * Stop the app manager from suspending the shell if there is no valid
+    active main stage application running. (LP: #1196696)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 81
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 03 Jul 2013 02:01:08 +0000
+
+platform-api (0.18.1+13.10.20130630-0ubuntu1) saucy; urgency=low
+
+  [ Ricardo Mendoza ]
+  * Add guards for NULL sensors.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 79
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Sun, 30 Jun 2013 02:01:10 +0000
+
+platform-api (0.18.1+13.10.20130628-0ubuntu1) saucy; urgency=low
+
+  [ Didier Roche ]
+  * minor cosmetic cleanups as we detect the archs we can't build for in
+    daily release now.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 77
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 28 Jun 2013 02:01:14 +0000
+
+platform-api (0.18.1+13.10.20130627-0ubuntu1) saucy; urgency=low
+
+  [ Ricardo Mendoza ]
+  * GCC 4.8 introduces a change for ARM AAPCS calling conventions, this
+    breaks ABI for us because the Android library is built with GCC 4.7.
+    Revert to building platform-api with GCC 4.7 until we can update the
+    Android build. .
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 75
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 27 Jun 2013 02:01:09 +0000
+
+platform-api (0.18.1daily13.06.25-0ubuntu1) saucy; urgency=low
+
+  [ Robert Carr ]
+  * Add missing mir stub (ua_ui_session_properties_set_remote_pid).
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 73
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 25 Jun 2013 02:01:11 +0000
+
+platform-api (0.18.1daily13.06.21-0ubuntu1) saucy; urgency=low
+
+  [ Ubuntu daily release ]
+  * debian/*symbols: auto-update new symbols to released version
+
+  [ Didier Roche ]
+  * Add a symbol files with unmangled C++ symbols to track ABI.
+
+  [ Dmitrijs Ledkovs ]
+  * Add a symbol files with unmangled C++ symbols to track ABI.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 71
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 21 Jun 2013 02:01:21 +0000
+
+platform-api (0.18.1daily13.06.18-0ubuntu1) saucy; urgency=low
+
+  [ Gerry Boland ]
+  * Add mir suport.
+
+  [ Robert Carr ]
+  * Add mir suport.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 69
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 18 Jun 2013 18:32:00 +0000
+
+platform-api (0.18.1daily13.06.11-0ubuntu1) saucy; urgency=low
+
+  [ Ricardo Mendoza ]
+  * Allow remote App Manager to take care of signalling processes.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 67
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 11 Jun 2013 14:40:23 +0000
+
+platform-api (0.18.1daily13.06.10-0ubuntu1) saucy; urgency=low
+
+  [ Ricardo Salveti de Araujo ]
+  * clipboard.h: fixing license (it should be LGPL instead of GPL).
+
+  [ Ricardo Mendoza ]
+  * Extend the SessionProperties API to allow setting a remote_pid for
+    operation across container boundaries.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 65
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 10 Jun 2013 02:02:01 +0000
+
+platform-api (0.18.1daily13.06.05-0ubuntu1) saucy; urgency=low
+
+  [ Ricardo Mendoza ]
+  * * Move all private headers for android interfaces to
+    android/include/ * Expose publicly only the C headers for the API *
+    Change namespaces to match new coding guidelines * General cleanup
+    and housekeeping of the codebase.
+  * * Add headers for new refactored platform API * Implement new API
+    for Android/hybris backend * Implement lifecycle iteration 0
+    delegates infrastructure * Do away with all old public headers and
+    use only the new API.
+  * * Enable usage of the new delegates from within the Application
+    Manager * Implement the notion of the application lifecycle and
+    state transition * Implement initial session state controller * Make
+    use of async delayer for suspend timeouts.
+  * * Refactor sensors API to use new guidelines * Add new public
+    headers for sensors and discard old API * Provide soft-float dynamic
+    loader macro for hybris * Provide updated test cases.
+  * * Change include barrier name to fix collision.
+
+  [ Michael Terry ]
+  * Add ubuntu/ui/config.h with UBUNTU_USE_GLES so we can know whether
+    to include GLES2/gl2.h or GL/gl.h.
+
+  [ Didier Roche ]
+  * fix archs for not building on powerpc and arch: all for transitional
+    packages.
+
+  [ Sergio Schvezov ]
+  * Adding rules to generate config.h from Android.mk.
+
+  [ Thomas Voß ]
+  * Switch to lazy init for the Bridge, and prevent tests from failing
+    on amd64/i386.
+
+  [ Gustavo Pichorim Boiko ]
+  * Now that phone-app is being separate into phone, messages and
+    contacts, we need to have a messages and contacts app listed too.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 62
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 05 Jun 2013 02:02:04 +0000
+
+platform-api (0.18.1daily13.05.30.2ubuntu.unity.next-0ubuntu1) raring; urgency=low
+
+  [ Ricardo Mendoza ]
+  * * Change include barrier name to fix collision.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 60 (ubuntu-unity/next)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 30 May 2013 21:13:45 +0000
+
+platform-api (0.18.1daily13.05.30.1ubuntu.unity.next-0ubuntu1) raring; urgency=low
+
+  [ Thomas Voß ]
+  * Switch to lazy init for the Bridge, and prevent tests from failing
+    on amd64/i386.
+
+  [ Ricardo Mendoza ]
+  * * Move all private headers for android interfaces to
+    android/include/ * Expose publicly only the C headers for the API *
+    Change namespaces to match new coding guidelines * General cleanup
+    and housekeeping of the codebase.
+  * * Add headers for new refactored platform API * Implement new API
+    for Android/hybris backend * Implement lifecycle iteration 0
+    delegates infrastructure * Do away with all old public headers and
+    use only the new API.
+  * * Enable usage of the new delegates from within the Application
+    Manager * Implement the notion of the application lifecycle and
+    state transition * Implement initial session state controller * Make
+    use of async delayer for suspend timeouts.
+  * * Refactor sensors API to use new guidelines * Add new public
+    headers for sensors and discard old API * Provide soft-float dynamic
+    loader macro for hybris * Provide updated test cases.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 58 (ubuntu-unity/next)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 30 May 2013 02:45:43 +0000
+
+platform-api (0.18.1daily13.05.15ubuntu.unity.next-0ubuntu1) raring; urgency=low
+
+  [ Gustavo Pichorim Boiko ]
+  * Now that phone-app is being separate into phone, messages and
+    contacts, we need to have a messages and contacts app listed too.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 52 (ubuntu-unity/next)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 15 May 2013 02:00:58 +0000
+
+platform-api (0.18.1daily13.04.15ubuntu.unity.next-0ubuntu1) raring; urgency=low
+
+  * Automatic snapshot from revision 50 (ubuntu-unity/next)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 15 Apr 2013 02:02:18 +0000
+
+platform-api (0.18.1daily13.04.12ubuntu.unity.next-0ubuntu1) raring; urgency=low
+
+  * Automatic snapshot from revision 48 (ubuntu-unity/next)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 12 Apr 2013 02:01:49 +0000
+
+platform-api (0.18.1daily13.04.08ubuntu.unity.next-0ubuntu1) raring; urgency=low
+
+  [ Dmitrijs Ledkovs ]
+  * Apply packaging clean-up:
+    - Use wrap-and-sort
+    - White space cleanup on .bzr-builddeb and debian/copyright
+    - Remove un-needed comments from debian/rules
+    - Use dh_install --fail-missing
+  * Rename packages to use generic names, but provide previous package
+    names as dummy/transitional such that not to break the world.
+
+  [ Michael Terry ]
+  * Automatic snapshot from revision 44 (bootstrap)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 46 (ubuntu-unity/next)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 08 Apr 2013 08:35:48 +0000
+
+ubuntu-platform-api (0.18-0phablet1) quantal; urgency=low
+
+  * Rename telephony-app to phone-app.
+
+ -- Gustavo Pichorim Boiko <gustavo.boiko@canonical.com>  Mon, 18 Mar 2013 18:27:18 -0300
+
+ubuntu-platform-api (0.17-0phablet1) quantal; urgency=low
+
+  [ Jim Hodapp ]
+  * Implements getting the min sensor reading update rate, min and max
+    reading values, and reading resolution.
+  * Refactor accelerometer support so that it supports calling more than
+    one observer listener per Sensor instance.
+  
+  [ Ricardo Mendoza ]
+  * Support tracking sessions in a different namespace than the app manager. 
+  * Move default app manager to detail namespace.
+  * Fix various tests due to API changes.
+
+ -- Ricardo Mendoza <ricardo.mendoza@canonical.com>  Mon, 04 Mar 2013 10:51:10 -0430
+
+ubuntu-platform-api (0.16-0phablet1) quantal; urgency=low
+
+  * Dynamically adjust the OOM values for running apps 
+
+ -- Ricardo Mendoza <ricardo.mendoza@canonical.com>  Fri, 22 Feb 2013 18:25:13 -0430
+
+ubuntu-platform-api (0.15-0phablet1) quantal; urgency=low
+
+  * Correct selection of next focused application
+  * Mark keyboard as invisible when switching apps to prevent the trap
+  * Correctly update current apps list even if all remaining apps are system sessions
+
+ -- Ricardo Mendoza <ricardo.mendoza@canonical.com>  Wed, 20 Feb 2013 16:48:08 -0430
+
+ubuntu-platform-api (0.14-0phablet1) quantal; urgency=low
+
+  * Packaging improvements for the public release
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Wed, 20 Feb 2013 15:49:21 -0300
+
+ubuntu-platform-api (0.13) quantal; urgency=low
+
+  * Add method to signal App Manager clients for changes on OSK geometry/visibility
+  * Prevent attempting to focus sessions from session-less surfaces
+
+ -- Ricardo Mendoza <ricardo.mendoza@canonical.com>  Wed, 20 Feb 2013 02:42:09 -0430
+
+ubuntu-platform-api (0.12) quantal; urgency=low
+
+  * Focus a new application only when the application requests visibility for its surfaces
+
+ -- Ricardo Mendoza <ricardo.mendoza@canonical.com>  Wed, 20 Feb 2013 02:05:14 -0430
+
+ubuntu-platform-api (0.11) quantal; urgency=low
+
+  [ Ricardo Mendoza ]
+  * Correctly report fullscreen session for mainstage apps if requested
+  * Dont schedule a system session app (osk) for focusing when recovering from a binder death
+  * Keep track of apps in independent pointers and better protect session binders.
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Wed, 20 Feb 2013 02:46:09 +0000
+
+ubuntu-platform-api (0.10) quantal; urgency=low
+
+  [Thomas Voss]
+  * fix compilation for c programs 
+
+ -- Bill Filler <bill.filler@canonical.com>  Sat, 16 Feb 2013 23:09:26 -0500
+
+ubuntu-platform-api (0.9) quantal; urgency=low
+
+  [ Ricardo Mendoza ]
+  * Track sidestage/mainstage app running states and adjust transitions accordingly
+  * Input layer changes to deal with new behaviour
+  * Do dynamic screenshots according to surface size with correctly scaled geometry
+  * General cleanup and stability fixes
+
+  [ Ricardo Salveti ]
+  * Removing logic to kill applications using the volume down key
+
+ -- Ricardo Mendoza <ricardo.mendoza@canonical.com>  Thu, 14 Feb 2013 11:19:18 -0430
+
+ubuntu-platform-api (0.8) quantal; urgency=low
+
+  [ Ricardo Mendoza ]
+  * Add API support for the dynamic creation and dismissal of system-session input traps with variable geometry.
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Wed, 13 Feb 2013 23:56:45 +0000
+
+ubuntu-platform-api (0.7) quantal; urgency=low
+
+  * debian/control: changing to arch any as libhybris is now available for
+    x86 64
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Sun, 10 Feb 2013 23:57:21 -0200
+
+ubuntu-platform-api (0.6) quantal; urgency=low
+
+  [ Thomas Voss ]
+  * Add fullscreen observer and callback for the app manager.
+
+  [ Ricardo Mendoza ]
+  * Release upstream
+
+ -- Ricardo Mendoza <ricardo.mendoza@canonical.com>  Thu, 07 Feb 2013 19:44:18 -0430
+
+ubuntu-platform-api (0.5) quantal; urgency=low
+
+  * Add support for copy and paste (Clipboard service)
+
+ -- Ricardo Mendoza <ricardo.mendoza@canonical.com>  Wed, 06 Feb 2013 21:06:53 -0430
+
+ubuntu-platform-api (0.4) quantal; urgency=low
+
+  * Enabling packages for i386 (useful from a package dependency perspective).
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Wed, 06 Feb 2013 20:08:58 -0200
+
+ubuntu-platform-api (0.3) quantal; urgency=low
+
+  * Creating a common libubuntu-platform-api-dev package, to avoid people to
+    depend on implementation specific packages (for that we have provides).
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Wed, 06 Feb 2013 19:14:05 -0200
+
+ubuntu-platform-api (0.2) quantal; urgency=low
+
+  * Updating packages to be multi-arch compatible
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Tue, 05 Feb 2013 21:01:10 -0200
+
+ubuntu-platform-api (0.1) quantal; urgency=low
+
+  * Initial Release
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@canonical.com>  Tue, 05 Feb 2013 14:15:40 -0200
